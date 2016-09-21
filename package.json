@@ -1,0 +1,77 @@
+{
+  "name": "gif2aa",
+  "version": "1.0.0",
+  "description": "gif file convert to aa animation.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp",
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "build-css": "gulp css",
+    "build-js": "gulp js",
+    "imagemin": "gulp imagemin",
+    "build-html": "gulp html",
+    "copy-bower": "gulp copy-bower",
+    "bower-install": "gulp bower-install",
+    "inject": "gulp inject",
+    "postinstall": "bower install && npm run copy-bower && npm run inject"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyawach/gif2aa.git"
+  },
+  "keywords": [
+    "gulp",
+    "es6",
+    "gulp4.0",
+    "gif",
+    "aa"
+  ],
+  "author": "nyawach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyawach/gif2aa/issues"
+  },
+  "homepage": "https://github.com/nyawach/gif2aa#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "bower": "^1.7.9",
+    "browser-sync": "^2.11.2",
+    "browserify": "^13.0.1",
+    "debowerify": "^1.4.1",
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-react": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-sass-glob": "^1.0.6",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5",
+    "gulp-webpack": "^1.5.0",
+    "imagemin-pngquant": "^5.0.0",
+    "main-bower-files": "^2.13.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "vinyl-named": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "webpack": "^1.13.1"
+  }
+}

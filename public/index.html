@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="">
+    <meta property="twitter:description" content="">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body><img src="images/logogif.png" class="logo">
+    <form>
+      <div>
+        <div class="imgFileWrap">
+          <input id="imgFile" type="file" name="" accept="image/*">D & D
+        </div>
+      </div>
+      <div>
+        <button id="gifButton" type="button">GIF to AA</button>or
+        <button id="outputBtn" type="button">Image to AA</button>
+      </div>
+    </form>
+    <div class="ioWrap">
+      <div class="imageWrap"><img id="rawImage"></div>
+      <div class="canvasWrap">
+        <canvas id="canvasGifOutput"></canvas>
+        <canvas id="canvasImgOutput"></canvas>
+      </div>
+    </div>
+    <div class="info">
+      <div class="info__dansity"></div>
+      <div class="info__font"></div>
+    </div>
+    <ul></ul>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "gulp-setting-for-myself",
+  "description": "Gulp settings",
+  "main": "gulpfile.babel.js",
+  "authors": [
+    "nyawach"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "es6",
+    "gulp4.0"
+  ],
+  "homepage": "https://github.com/nyawach/gulp-setting-for-myself",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "jsgif": "https://github.com/shachaf/jsgif.git"
+  }
+}

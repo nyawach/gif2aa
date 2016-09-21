@@ -1,0 +1,38 @@
+extend components/_template
+
+//- append JavascriptBlock
+
+//- append StylesheetBlock
+
+block ContentBlock
+	img.logo(src="images/logogif.png")
+	form
+		div
+			//- label(for="imgFile") ファイル
+			.imgFileWrap
+				input#imgFile(type="file", name="",　accept="image/*")
+				|D & D
+		//- div
+		//- 	label(for="text") 文字列
+		//- 	input#text(type="text", name="")
+		//- div
+		//- 	label(for="textRange") 文字サイズ
+		//- 	input#textRange(type="range", name="" max="16" min="4")
+		//- 	span #{(16-4)/2}
+
+		div
+			button#gifButton(type="button") GIF to AA
+			|or
+			button#outputBtn(type="button") Image to AA
+	.ioWrap
+		.imageWrap: img#rawImage
+		//- .vt
+		.canvasWrap
+			canvas#canvasGifOutput
+			canvas#canvasImgOutput
+		//- canvas#canvas
+	//- img#gif(src="http://livedoor.4.blogimg.jp/jin115/imgs/1/5/1567a888.gif")
+	.info
+		.info__dansity
+		.info__font
+	ul
